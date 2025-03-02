@@ -1,0 +1,16 @@
+body{
+    background-color: #4DC6EB;
+}
+
+button{
+    padding: 1rem;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4DEBA7;
+    border-radius: 10px;
+}
+
+button a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: black;
+}
