@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sriyanshu Azad</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./style.css" rel="stylesheet">
-</head>
-
-
-<body>
-
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4 rounded-circle" src="./me.jpeg" alt="" width="200" height="200">
-        <h1 class="display-5 fw-bold text-body-emphasis">Hello, I'm Sriyanshu</h1>
-        <div class="col-lg-6 mx-auto">
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
-            <button type="button" class="buton">My Skills</button>
-            <button type="button" class="buton">My Projects</a></button>
-          </div>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <section class="intro">
+      <div class="pfp">
+        <img src="./resources/me.jpeg" class="me" alt="my image" />
+        <h1 id="name">Sriyanshu Azad</h1>
+        <p id="headline">Software Engineer</p>
+        <a href="mailto:sriiiyanshu@gmail.com" class="btn">Email Me</a>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/sriyanshu-azad/"><img src="./resources/InBug-Black.png" height="21px" alt="linkedin" /></a>
+          <a href="https://github.com/sriiiyanshu"><img src="./resources/github-mark.png" height="21px" alt="github" /></a>
+          <a href="https://x.com/SriyanshuAzad"><img src="./resources/logo-black.png" height="21px" alt="twitter" /></a>
+          <a href="https://www.instagram.com/sriyanshuazad"><img src="./resources/Instagram_Glyph_Black.png" height="21px" alt="instagram" /></a>
         </div>
       </div>
+      <div class="about">
+        <h2 id="about-me">About Me</h2>
+        <div id="desc">
+          <p>
+            I am an undergraduate Computer Science and Engineering student from Delhi, India, specializing in Java programming and Full-Stack Web Development. I am also proficient in C++, C, and
+            Python. Currently, I am majoring in Artificial Intelligence and Machine Learning. As a quick learner and a team player, I strive to achieve goals with precision and excellence.
+          </p>
+        </div>
+        <div id="about-btn">
+          <a href="../Capstone-Project1/index.html" class="btn">Resume</a>
+          <a href="#skills" class="btn">Skills</a>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section id="skills">
+      <div><h2 id="skill-head">Skills</h2></div>
+      <div id="skillset">
+        <div class="skill-box" id="web">
+          <h3>Web Development</h3>
+          <div class="inner-box"><img src="./webd.gif" alt="web dev">
+          <p>Experienced in designing and developing responsive, user-friendly web applications using modern front-end and back-end technologies. Proficient in HTML, CSS, JavaScript (React, Next.js), and backend frameworks like Node.js and Django. Skilled in API integration, database management, and optimizing web performance.</p>
+        </div>
+        </div>
+        <div class="skill-box" id="software-dev">
+          <h3>Software Development</h3>
+          <div class="inner-box"><img src="./java-duke.gif" alt="web dev">
+          <p>Proficient in designing, developing, and optimizing software applications using multiple programming languages, including Python, C, and Java. Experienced in building scalable and efficient software solutions, implementing algorithms, and following best coding practices for maintainability and performance.</p>
+        </div>
+        </div>
+        <div class="skill-box" id="ios-dev">
+          <h3>iOS App Development</h3>
+          <div class="inner-box"><img src="./Apple_App_Store_10th_anniversary_07102018_big.gif.large_2x.gif" alt="IOS dev">
+          <p>Skilled in developing intuitive and high-performance iOS applications using Swift and SwiftUI. Experienced in integrating APIs, managing app lifecycle, and following Apple’s Human Interface Guidelines for seamless user experience. Knowledgeable in debugging, performance optimization, and App Store deployment.</p>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="copyright">
+        <p>&copy Sriyanshu Azad 2025 </p>
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/sriyanshu-azad/"><img src="./resources/InBug-Black.png" height="21px" alt="linkedin" /></a>
+        <a href="https://github.com/sriiiyanshu"><img src="./resources/github-mark.png" height="21px" alt="github" /></a>
+      </div>
+    </div>
+      
+    </section>
+  </body>
 </html>
