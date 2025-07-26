@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-gen",
+  "version": "1.0.0",
+  "description": "qr code generator",
+  "license": "ISC",
+  "author": "sri",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.3.7",
+    "qr-image": "^3.2.0"
+  }
+}
