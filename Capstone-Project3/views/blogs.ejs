@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+<main>
+  <% if (posts) { %> <% posts.forEach(post => { %>
+  <div class="card mb-3">
+    <div class="card-body">
+      <h3><%= post.title %></h3>
+      <p><strong>By:</strong> <%= post.author %></p>
+      <p><%= post.content %></p>
+    </div>
+    <a href="/blogs/<%= post.id%>/edit " class="btn btn-success rounded-pill px-3 center-btn" type="button">Edit</a>
+
+    <form action="/blogs/<%= post.id %>/delete" method="POST" class="center-btn">
+      <button type="submit" class="btn btn-danger rounded-pill px-3 center-btn">Delete</button>  
+    </form>
+    </div>
+  <% }) %> <% } %>
+
+  <a href="/" class="btn btn-primary rounded-pill px-3" type="button" style="margin: 20px">Create new Blog Post</a>
+
+  <%- include('partials/footer.ejs') %>
+</main>
